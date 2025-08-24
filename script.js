@@ -12,7 +12,7 @@
     ];
 
     const VIDEOS = [
-       {id:1,title:"30s Gym Reel — Fat Burn",category:"Short-form",client:"FitnessPro",src:"Videos/Gym.mp4",poster:"Photo/gym.jpg",date:"2025-08-01"},
+      {id:1,title:"30s Gym Reel — Fat Burn",category:"Short-form",client:"FitnessPro",src:"Videos/Gym.mp4",poster:"Photo/gym.jpg",date:"2025-08-01"},
       {id:2,title:"MacBook Unboxing — Full Review",category:"Long-form",client:"MacBook",src:"Videos/ub.mp4",poster:"Photo/tech.png",date:"2025-07-24"},
       {id:3,title:"Independence Day Sale - Special Offer",category:"eCommerce Ads",client:"mcaffeine",src:"Videos/sale.mp4",poster:"Photo/Ec.png",date:"2025-06-18"},
       {id:4,title:"Pro Gamer Highlights",category:"Gaming",client:"SUBWAY SURFERS",src:"Videos/Gaming.mp4",poster:"Photo/Gaming.png",date:"2025-06-10"},
@@ -161,3 +161,4 @@
     document.querySelector('#year').textContent = new Date().getFullYear();
 
   
+

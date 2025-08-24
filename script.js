@@ -18,7 +18,7 @@
       {id:4,title:"Pro Gamer Highlights",category:"Gaming",client:"SUBWAY SURFERS",src:"Videos/Gaming.mp4",poster:"Photo/Gaming.png",date:"2025-06-10"},
       {id:5,title:"Match Highlight",category:"Football",client:"Star Sports",src:"Videos/Football edit.mp4",poster:"Photo/FB.png",date:"2025-05-30"},
       {id:6,title:"Street Food Documentary — Ep.1",category:"Documentary",client:"Tasty Taste",src:"Videos/St food.mp4",poster:"Photo/food.png",date:"2025-05-12"},
-      {id:7,title:"Cinematic Color Grade — Forest",category:"Color Grading",client:"FilmLab",src:"videos/FOREST.mp4",poster:"photo/forest.png",date:"2025-04-25"},
+      {id:7,title:"Cinematic Color Grade — Forest",category:"Color Grading",client:"FilmLab",src:"Videos/FOREST.mp4",poster:"Photo/forest.png",date:"2025-04-25"},
       {id:8,title:"Anime AMV — Skybound",category:"Anime",client:"AMV Vault",src:"Videos/ANIME.mp4",poster:"Photo/Anime.webp",date:"2025-04-02"},
       {id:9,title:"UGC Ad — Skincare",category:"Ads",client:"LAR'S SKINCARE",src:"Videos/LC.mp4",poster:"Photo/Lar.jpeg",date:"2025-03-14"},
       {id:10,title:"Podcast Edit — Startup Talk",category:"Long-form",client:"FoundersPod",src:"Videos/ST.mp4",poster:"Photo/st.png",date:"2025-02-11"},
@@ -161,4 +161,5 @@
     document.querySelector('#year').textContent = new Date().getFullYear();
 
   
+
 

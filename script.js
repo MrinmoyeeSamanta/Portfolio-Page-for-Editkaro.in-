@@ -12,18 +12,18 @@
     ];
 
     const VIDEOS = [
-       {id:1,title:"30s Gym Reel — Fat Burn",category:"Short-form",client:"FitnessPro",src:"videos/Gym.mp4",poster:"photo/gym.jpg",date:"2025-08-01"},
-      {id:2,title:"MacBook Unboxing — Full Review",category:"Long-form",client:"MacBook",src:"videos/ub.mp4",poster:"photo/tech.png",date:"2025-07-24"},
-      {id:3,title:"Independence Day Sale - Special Offer",category:"eCommerce Ads",client:"mcaffeine",src:"Videos/sale.mp4",poster:"photo/Ec.png",date:"2025-06-18"},
-      {id:4,title:"Pro Gamer Highlights",category:"Gaming",client:"SUBWAY SURFERS",src:"Videos/Gaming.mp4",poster:"photo/Gaming.png",date:"2025-06-10"},
-      {id:5,title:"Match Highlight",category:"Football",client:"Star Sports",src:"Videos/Football edit.mp4",poster:"photo/FB.png",date:"2025-05-30"},
-      {id:6,title:"Street Food Documentary — Ep.1",category:"Documentary",client:"Tasty Taste",src:"videos/St food.mp4",poster:"photo/food.png",date:"2025-05-12"},
+       {id:1,title:"30s Gym Reel — Fat Burn",category:"Short-form",client:"FitnessPro",src:"Videos/Gym.mp4",poster:"Photo/gym.jpg",date:"2025-08-01"},
+      {id:2,title:"MacBook Unboxing — Full Review",category:"Long-form",client:"MacBook",src:"Videos/ub.mp4",poster:"Photo/tech.png",date:"2025-07-24"},
+      {id:3,title:"Independence Day Sale - Special Offer",category:"eCommerce Ads",client:"mcaffeine",src:"Videos/sale.mp4",poster:"Photo/Ec.png",date:"2025-06-18"},
+      {id:4,title:"Pro Gamer Highlights",category:"Gaming",client:"SUBWAY SURFERS",src:"Videos/Gaming.mp4",poster:"Photo/Gaming.png",date:"2025-06-10"},
+      {id:5,title:"Match Highlight",category:"Football",client:"Star Sports",src:"Videos/Football edit.mp4",poster:"Photo/FB.png",date:"2025-05-30"},
+      {id:6,title:"Street Food Documentary — Ep.1",category:"Documentary",client:"Tasty Taste",src:"Videos/St food.mp4",poster:"Photo/food.png",date:"2025-05-12"},
       {id:7,title:"Cinematic Color Grade — Forest",category:"Color Grading",client:"FilmLab",src:"videos/FOREST.mp4",poster:"photo/forest.png",date:"2025-04-25"},
-      {id:8,title:"Anime AMV — Skybound",category:"Anime",client:"AMV Vault",src:"videos/ANIME.mp4",poster:"photo/Anime.webp",date:"2025-04-02"},
-      {id:9,title:"UGC Ad — Skincare",category:"Ads",client:"LAR'S SKINCARE",src:"videos/LC.mp4",poster:"photo/Lar.jpeg",date:"2025-03-14"},
-      {id:10,title:"Podcast Edit — Startup Talk",category:"Long-form",client:"FoundersPod",src:"videos/ST.mp4",poster:"photo/st.png",date:"2025-02-11"},
-      {id:11,title:"Micro‑learning Reel — UI Tips",category:"Short-form",client:"DesignDose",src:"videos/ML.mp4",poster:"photo/mc.png",date:"2025-01-29"},
-      {id:12,title:"Football Edits — Top 10 Goals",category:"Football",client:"League Central",src:"Videos/FB.mp4",poster:"photo/Football.jpg",date:"2024-12-18"}
+      {id:8,title:"Anime AMV — Skybound",category:"Anime",client:"AMV Vault",src:"Videos/ANIME.mp4",poster:"Photo/Anime.webp",date:"2025-04-02"},
+      {id:9,title:"UGC Ad — Skincare",category:"Ads",client:"LAR'S SKINCARE",src:"Videos/LC.mp4",poster:"Photo/Lar.jpeg",date:"2025-03-14"},
+      {id:10,title:"Podcast Edit — Startup Talk",category:"Long-form",client:"FoundersPod",src:"Videos/ST.mp4",poster:"Photo/st.png",date:"2025-02-11"},
+      {id:11,title:"Micro‑learning Reel — UI Tips",category:"Short-form",client:"DesignDose",src:"Videos/ML.mp4",poster:"Photo/mc.png",date:"2025-01-29"},
+      {id:12,title:"Football Edits — Top 10 Goals",category:"Football",client:"League Central",src:"Videos/FB.mp4",poster:"Photo/Football.jpg",date:"2024-12-18"}
     ];
 
     const state = { q:"", category:"All", sort:"newest" };
@@ -159,4 +159,5 @@
     });
 
     document.querySelector('#year').textContent = new Date().getFullYear();
+
   
